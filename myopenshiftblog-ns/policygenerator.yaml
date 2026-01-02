@@ -4,7 +4,7 @@ metadata:
   name: create-myopenshiftblog-namespace
 policyDefaults:
   remediationAction: enforce
-  namespace: policies
+  namespace: policies-developer
   complianceType: musthave
   severity: medium
 policies:
