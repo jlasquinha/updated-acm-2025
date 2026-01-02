@@ -3,8 +3,10 @@ kind: PolicyGenerator
 metadata:
   name: create-myopenshiftblog-namespace
 policyDefaults:
-  namespace: policies
   remediationAction: enforce
+  namespace: policies
+  complianceType: musthave
+  severity: medium
 policies:
   - name: create-myopenshiftblog-namespace
     manifests:
